@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js"></script>
+</head>
+<body onload="loadData()">
+  <h1>First Website: <abbr title="Honors Computer Science Senior Capstone: Web, Data, and AI">HCSSCWDAI</abbr></h1>
+  <p>Hello World</p>
+  <ol>
+    <li>Coding</li>
+    <li>Snowboarding</li>
+    <li><em>Studying for the SAT</em></li>
+  </ol>
+  <div>
+    <h3 style="margin-top: 0px;" id="fun-facts-list">Three fun facts</h3>
+    <ul>
+      <li>I have 13 food allergies :(</li>
+      <li>I speak 4 languages (and im learning a few more)</li>
+      <li>I can play piano, flute, and guitar</li>
+    </ul>
+  </div>
+  <p style="margin-top: 2rem;"><strong>Bold text</strong> here</p>
+  <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+  <p>F<sub>E</sub> = mg</p>
+  <p>Random quote: <q>Don't try harder, cry harder</q></p>
+  <p><a href="https://quizfreely.org">Quizfreely</a> is a free and open source studying tool.</p>
+  <p style="margin-top: 2rem;">This is an image:</p>
+  <img alt="FRHSD logo" height="200px" src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1698865704/frhsdcom/owwyh1urh6cfbzwghmd5/FRHSDSealBlackwithPuncbackground.png" />
+  <!-- wow -->
+  <table style="margin-top: 3rem;">
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+    <tr>
+      <td>Row 1</td>
+      <td>Also Row 1</td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+      <td>More Row 2</td>
+    </tr>
+  </table>
+  <p style="margin-top: 2rem;">Link to FRHSD website <a href="https://frhsd.com">here</a></p>
+  <div style="margin-top: 2rem;">
+    <p>Example</p>
+    <div id="pod">
+      <p>Another Example</p>
+      <p>More Examples</p>
+      <p>This is an example</p>
+    </div>
+    <div id="funky">
+      <p>More example text</p>
+    </div>
+  </div>
+  <div style="margin-top: 2rem;">
+    <div>
+      <p>Abcd</p>
+      <p>1234</p>
+    </div>
+    <div>
+      More examples
+    </div>
+    <div>
+      <div>123</div>
+      <div>456</div>
+    </div>
+    <img alt="FHS logo" src="https://resources.finalsite.net/images/f_auto,q_auto/v1692266860/frhsdcom/h3trgfbqt2t48bi4kpra/FreeholdHighSchool.png">
+  </div>
+  <div id="grid-container" style="margin-top: 2rem;">
+    <img id="grid-image" alt="cover of 1984 by George Orwell" src="https://ih1.redbubble.net/image.3627578336.5377/flat,750x,075,f-pad,750x1000,f8f8f8.webp">
+    <p id="grid-text">"It was a bright cold day in April, and the clocks were striking
+      thirteen. Winston Smith, his chin nuzzled into his breast in an
+      effort to escape the vile wind, slipped quickly through the glass
+      doors of Victory Mansions, though not quickly enough to prevent
+      a swirl of gritty dust from entering along with him.
+      The hallway smelt of boiled cabbage and old rag mats. At one
+      end of it a coloured poster, too large for indoor display, had been
+      tacked to the wall. It depicted simply an enormous face, more
+      than a metre wide: the face of a man of about forty-fi ve, with a
+      heavy black moustache and ruggedly handsome features. Winston
+      made for the stairs. It was no use trying the lift. Even at the best
+      of times it was seldom working, and at present the electric curr ent
+      was cut off during daylight hours. It was part of the economy
+      drive in preparation for Hate Week. The flat was seven flights up,
+      and Winston, who was thirty-nine and had a varicose ulcer above
+      his right ankle, went slowly, resting several times on the way. On
+      each landing, opposite the lift-shaft, the poster with the enormous
+      face gazed from the wall. It was one of those pictures which are so
+      contrived that the eyes follow you about when you move. BIG
+      BROTHER IS WATCHING YOU, the caption beneath it ran."</p>
+    <a id="grid-internal" href="#fun-facts-list">Link to Fun Facts List</a>
+    <a id="grid-external" href="https://frhsd.com">Link to FRHSD website</a>
+  </div>
+
+
+  <div style="margin-top: 20rem;">
+    <input type="text" placeholder="Enter a new title" id="title-input" />
+    <div class="ignore-first-day-styles" style="margin-top: 1rem; padding: 0px;">
+      <button onclick="changeTitle()">Update Title</button>
+    </div>
+  </div>
+
+
+  <div style="margin-top: 10rem; margin-bottom: 20rem;">
+      <button id="localstorage-button">0</button> <button id="sessionstorage-button">0</button>
+  </div>
+</body>
+</html>

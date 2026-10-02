@@ -1,0 +1,143 @@
+body {
+    padding: 2rem 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0fcff;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+a {
+    color: #062eb1;
+    transition: color 0.2s ease;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+a:hover,
+a:focus {
+    color: #6585ef;
+}
+
+a[href*="frhsd.com"] {
+    color: #c68109;
+}
+a[href*="frhsd.com"]:hover,
+a[href*="frhsd.com"]:focus {
+    color: #fbb337;
+}
+
+td,
+th {
+   margin: 0px;
+    padding: 1rem;
+}
+
+li {
+    transition-duration: 0.2s;
+}
+li:hover {
+    padding: 40px;
+    background-color: #3c4a49;
+    color: #e3e3ed;
+    border: 0.4rem solid #9995ff;
+}
+
+div:not(.ignore-first-day-styles) {
+    background-color: #d5eaf6;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    li {
+        list-style: none;
+    }
+}
+ol > li {
+    color: #0c774d;
+}
+li + li {
+    border-top: 3px dotted #9995ff;
+}
+
+div > div {
+    padding: 0px 0.5rem;
+    color: #9c1504;
+}
+p + div {
+    border: 0.2rem solid #3c4a49;
+}
+
+#funky {
+    text-decoration: underline;
+}
+
+#pod {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    img {
+        grid-column: span 3;
+        grid-row: span 3;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.8rem;
+    }
+    a {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+button {
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    outline: none;
+    font-size: 1rem;
+}
+
+button:hover,
+button:focus {
+    background-color: #fcfcfc;
+    color: #062eb1;
+}
+button:active {
+    background-color: #e0e0e0;
+}
+button:focus-visible {
+    outline: 0.2rem solid #062eb1;
+    outline-offset: 0.2rem;
+}
+
+input[type="text"] {
+    border: 0.2rem solid #1a1a1a;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    outline: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    font-size: 1rem;
+}
+
+input[type="text"]:hover {
+    border-color: #8a8a8a;
+}
+input[type="text"]:focus {
+    border-color: #062eb1;
+}
